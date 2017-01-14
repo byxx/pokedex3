@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					22D7EF2E1E2A2B6D00D437C9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3B26HZBT86;
 						ProvisioningStyle = Automatic;
 					};
 					22D7EF451E2A2B6D00D437C9 = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B26HZBT86;
 				INFOPLIST_FILE = pokedex3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.byxx.pokedex3;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B26HZBT86;
 				INFOPLIST_FILE = pokedex3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.byxx.pokedex3;
