@@ -10,4 +10,17 @@ import UIKit
 
 class PokeCell: UICollectionViewCell {
     
-}
+    @IBOutlet weak var thumbImg:UIImageView!
+    @IBOutlet weak var nameLbl: UILabel!
+    
+    func configureCell(pokemon: Pokemon){
+        
+        nameLbl.text = pokemon.name.capitalized
+        thumbImg.image = UIImage(named: /*Benennung&klammerung unklar*/ "\(pokemon.pokedexId)")
+        
+        
+        
+    }
+    
+    }
+

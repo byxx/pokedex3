@@ -47,14 +47,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wSy-F7-WUw">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokeCell" id="wSy-F7-WUw" customClass="PokeCell" customModule="pokedex3" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="MVT-Xb-IT5">
+                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="MVT-Xb-IT5">
                                                     <rect key="frame" x="0.0" y="0.0" width="105" height="80"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
@@ -80,6 +80,10 @@
                                             <constraint firstItem="MVT-Xb-IT5" firstAttribute="leading" secondItem="wSy-F7-WUw" secondAttribute="leading" id="kfp-Bk-KHI"/>
                                             <constraint firstAttribute="trailing" secondItem="MVT-Xb-IT5" secondAttribute="trailing" id="oG0-Rs-I7F"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="nameLbl" destination="beN-ap-sZj" id="42X-C2-8LF"/>
+                                            <outlet property="thumbImg" destination="MVT-Xb-IT5" id="0MS-Fv-5k1"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

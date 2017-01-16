@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       let charmander = Pokemon(name: "Charmander", pokedexId: 4)
     }
 
     override func didReceiveMemoryWarning() {
